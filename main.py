@@ -11,7 +11,7 @@ class MyWidget(QWidget):
         self.ui.setupUi(self)
         self.button_init()
 
-    def happy(self):
+    def happy1(self):
         pass
 
     def button_init(self):
