@@ -1,8 +1,8 @@
 from PySide6.QtWidgets import QApplication, QWidget, QFileDialog
 from PySide6.QtGui import QImage, QPixmap, QIcon
 import nbimporter
-from CamCalibration import camera_calibration
-from ui_untitled import Ui_Form
+from lib.CamCalibration import camera_calibration
+from others.ui_untitled import Ui_Form
 
 class MyWidget(QWidget):
     def __init__(self):
