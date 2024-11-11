@@ -11,6 +11,7 @@ class MyWidget(QWidget):
         self.ui.setupUi(self)
         self.button_init()
 
+    #dick
     def happy1(self):
         pass
 
