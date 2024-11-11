@@ -107,10 +107,10 @@ def RGB_location():
  #       cv2.putText(image, 'B', B, font, font_scale, (255, 0, 0), thickness, cv2.LINE_AA)  # Blue text for blue mean
 
     # Display the image with the mean positions labeled
-    cv2.imshow("Mean Color Positions", image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-    cv2.waitKey(1)
+ #   cv2.imshow("Mean Color Positions", image)
+ #   cv2.waitKey(0)
+ #   cv2.destroyAllWindows()
+ #   cv2.waitKey(1)
 
     y_center,x_center = image.shape[:2]
 #    print(x_center,y_center)

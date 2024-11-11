@@ -44,7 +44,7 @@ RGB=RGB_location('RGBcalibration.jpeg')[0]
 V,A,P=direction_vector_from_camera("EricsPad",'RGBcalibration.jpeg')
 
 #least square method
-antiA=np.linalg.inv(A)
+antiA=np.linalg.inv(A) 
 position=antiA@P
 
 
